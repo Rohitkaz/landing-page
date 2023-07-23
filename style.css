@@ -83,3 +83,49 @@ a {
     display:flex;
 
 }
+#button{
+    height: 30px;
+    border: none;
+    background-color:red;
+    font-family: "Poppins", sans-serif;
+    font-size: large;
+    border-radius: 10px;
+}
+#button:hover{
+    color:whitesmoke;
+}.btn{
+    width: 100px;
+    height:60px;
+    border:none;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    background:transparent ;
+}
+.btn:hover{
+    
+    color:red;
+}a
+.btn:active{
+    transform:translatey(10px);
+    transition:transform 0.3s ease;
+
+}
+#btnbox{
+    margin-top: 40px;
+    margin-left: 30vw;
+    width: 600px;
+    display:flex;
+    justify-content: space-between;
+    display:none;
+    
+}
+#register{
+    font-family: "Poppins", sans-serif;
+    font-size: large;
+    background:transparent;
+    border: none;
+
+}
+#register:hover{
+    color:red;
+}
